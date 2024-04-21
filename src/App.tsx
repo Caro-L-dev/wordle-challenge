@@ -1,10 +1,12 @@
-import "./App.css";
+import Game from "./components/game/Game";
 
 function App() {
   return (
-    <>
-      <h1 className="font-bold text-3xl uppercase">Wordle Challenge</h1>
-    </>
+    <div className="flex flex-col justify-center mx-auto">
+      <main>
+        <Game />
+      </main>
+    </div>
   );
 }
 
